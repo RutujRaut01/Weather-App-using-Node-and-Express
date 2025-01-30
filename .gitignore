@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+public/
+
+# Environment files
+.env
+
+# Mac system files (optional)
+.DS_Store
+
+# Visual Studio Code settings (optional)
+.vscode/
+
+# Operating system files (optional)
+Thumbs.db
+

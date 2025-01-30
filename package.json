@@ -1,0 +1,20 @@
+{
+  "name": "weather-app-using-node-and-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.1.9",
+    "request": "^2.88.2"
+  }
+}
