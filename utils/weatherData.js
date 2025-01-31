@@ -7,7 +7,7 @@ const openWeatherMap = {
   BASE_URL: "https://api.openweathermap.org/data/2.5/weather?q=",
   SECRET_KEY: process.env.OPENWEATHER_API_KEY,
 };
-console.log('The secret key is as follows : ${openWeatherMap.SECRET_KEY}');
+
 const weatherData = (address, callback) => {
   const url = openWeatherMap.BASE_URL + encodeURIComponent(address) + "&APPID=" + openWeatherMap.SECRET_KEY;
   console.log(url);
