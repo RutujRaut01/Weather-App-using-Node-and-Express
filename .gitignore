@@ -8,7 +8,6 @@ yarn-error.log
 # Build output
 dist/
 build/
-public/
 
 # Environment files
 .env
